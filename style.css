@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.quadrato {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadrato p {
+    font-size: 30px;
+}
+
+.rosso {
+    color: red;
+}
+
+.verde {
+    color: green;
+}
